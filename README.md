@@ -23,12 +23,13 @@ To write a program to predict the marks scored by a student using the simple lin
   
 
 ## Program:
+~~~
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: gundarapu chaithanya
 RegisterNumber:  25011828
 */
-~~~
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -71,6 +72,10 @@ predicted_marks = model.predict([[hours]])
 print(f"\nPredicted marks for {hours} hours of study = {predicted_marks[0]:.2f}"
 ~~~
 ## Output:
+<img width="468" height="688" alt="image" src="https://github.com/user-attachments/assets/e6151f2b-aac5-4d2a-bbbb-e1ce84d4406c" />
+<img width="974" height="706" alt="image" src="https://github.com/user-attachments/assets/5696b6ee-c028-4eaa-89ce-4bb02a536888" />
+<img width="886" height="49" alt="image" src="https://github.com/user-attachments/assets/5830b69e-d3d9-4e50-b57f-680a7c7a49b5" />
+
 
 
 
